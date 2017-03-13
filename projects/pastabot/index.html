@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="icon" href="../icon.ico">
+    <link rel="icon" href="../../images/icon.ico">
 
-    <title>Nick's World - Auto Cover</title>
+    <title>Nick's World - PastaBot</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="navbar.css" rel="stylesheet">
 
     <!-- Custom Skins -->
-    <link href="../bootstrap/eden.css" rel="stylesheet">
-    <link href="../bootstrap/font-awesome.min.css" rel="stylesheet">
+    <link href="../../bootstrap/eden.css" rel="stylesheet">
+    <link href="../../bootstrap/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
@@ -38,13 +38,14 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="..">Home</a></li>
-              <li><a href="../about">About</a></li>
+              <li><a href="../..">Home</a></li>
+              <li><a href="../../about">About</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="../unityplanner">Unity Planner</a></li>
-                  <li class="active"><a href="#">Auto Cover</a></li>
+                  <li><a href="../autocover">Auto Cover</a></li>
+                  <li class="active"><a href="#">PastaBot</a></li>
                 </ul>
               </li>
             </ul>
@@ -54,13 +55,22 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Auto Cover</h1>
-        <p>The cover that automatically closes when raining or a manual input is detected, run on an arduino. Created for Invention Bootcamp 2015</p>
-          <p>
-            <a class="btn btn-lg btn-primary" href="https://github.com/nbd9/Automatic-Cover" role="button">Source Code</a>
-          </p>
+        <h1>PastaBot</h1>
+        <p>A discord bot for all your pasta needs.</p>
+            <a class="btn btn-lg btn-primary" href="https://discordapp.com/oauth2/authorize?client_id=285314633466773514&scope=bot&permissions=0" role="button">Add to your server</a>
+            <a class="btn" href="https://github.com/nbd9/PastaBot" role="button">Source Code</a>
         </div>
     </div> <!-- /container -->
+
+    <div class="container">
+      <h3>Commands:</h3>
+        <ul>
+          <li>~pasta | <i>Gets a random copypasta from /r/copypasta.</i></li>
+          <li>~joke | <i>Gets a random joke from /r/jokes.</i></li>
+          <li>~kahoot | <i>Deploys up to 50 bots to *hack* kahoot</i></li>
+          <li>~help | <i>Shows commands and usages</i></li>
+        </ul>
+    </div>
 
     <div class="mastfoot">
       <div class="inner">
@@ -68,11 +78,12 @@
       </div>
     </div>
 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../bootstrap/jquery.min.js"><\/script>')</script>
-    <script src="../bootstrap/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../bootstrap/jquery.min.js"><\/script>')</script>
+    <script src="../../bootstrap/bootstrap.min.js"></script>
   </body>
 </html>
