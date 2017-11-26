@@ -5,6 +5,8 @@ import Parallax from 'react-springy-parallax'
 import { SocialIcon } from 'react-social-icons'
 import { Card, CardHeader, CardActions, FlatButton } from 'material-ui'
 
+import CSS from './styles/App.css'
+
 const styles = {
   fontFamily: 'Menlo-Regular, Menlo, monospace',
   fontSize: 14,
@@ -31,11 +33,11 @@ class App extends Component {
           <div>
             <h1><mark>Nick DeGroot</mark></h1>
             <p><i><mark>Programmer, Student, Leader</mark></i></p>
-            <div style={{...styles, backgroundColor: 'white'}}>
-              <SocialIcon style={{ margin: 10 }} url={'http://twitter.com/OfficialNbd9'} />
-              <SocialIcon style={{ margin: 10 }} url={'https://github.com/nbd9'} />
-              <SocialIcon style={{ margin: 10 }} url={'https://www.linkedin.com/in/nick-degroot-377374141'} />
-              <SocialIcon style={{ margin: 10 }} url={'mailto:contact@nbdeg.com'} network='email' />
+            <div style={{ backgroundColor: 'white' }} >
+              <SocialIcon style={{ margin: 5 }} url={'http://twitter.com/OfficialNbd9'} />
+              <SocialIcon style={{ margin: 5 }} url={'https://github.com/nbd9'} />
+              <SocialIcon style={{ margin: 5 }} url={'https://www.linkedin.com/in/nick-degroot-377374141'} />
+              <SocialIcon style={{ margin: 5 }} url={'mailto:contact@nbdeg.com'} network='email' />
             </div>
           </div>
         </Parallax.Layer>
