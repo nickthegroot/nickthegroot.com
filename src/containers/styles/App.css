@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.p1-background {
+  background-image: url(../../images/butterbeer.jpg);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
