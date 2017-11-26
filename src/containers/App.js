@@ -5,7 +5,7 @@ import Parallax from 'react-springy-parallax'
 import { SocialIcon } from 'react-social-icons'
 import { Card, CardHeader, CardActions, FlatButton } from 'material-ui'
 
-import CSS from './styles/App.css'
+import './styles/App.css'
 
 const styles = {
   fontFamily: 'Menlo-Regular, Menlo, monospace',
