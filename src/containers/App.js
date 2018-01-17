@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import butterbeer from '../images/butterbeer.jpg'
 import unityplanner from '../images/unityplanner.png'
+import homeroom from '../images/homeroom.png'
 import Parallax from 'react-springy-parallax'
 import { SocialIcon } from 'react-social-icons'
 import { Card, CardHeader, CardActions, FlatButton } from 'material-ui'
@@ -62,12 +63,18 @@ class App extends Component {
             <h2>My Projects:</h2>
             <p><i>I'm constantly working on new and exciting projects, so be sure to check back!</i></p>
             <div>
+              <Card style={{ margin: 10 }} >
+                <CardHeader
+                  title='Homerooom'
+                  subtitle='An app to connect teachers and learners. Coming soon to Android and iOS.'
+                  avatar={homeroom} />
+              </Card>
+              
               <Card style={{ margin: 10 }}>
                 <CardHeader
                   avatar={unityplanner}
                   title='Unity Planner'
-                  subtitle='The planner to unify your school life.'
-              />
+                  subtitle='The planner to unify your school life.' />
                 <CardActions>
                   <FlatButton
                     label='GitHub Repo'
@@ -83,21 +90,8 @@ class App extends Component {
 
               <Card style={{ margin: 10 }}>
                 <CardHeader
-                  title='LOHS Support Seminar'
-                  subtitle='The app to digitize Support Seminar.'
-              />
-                <CardActions>
-                  <FlatButton
-                    label='GitHub Repo'
-                    onClick={() => window.open('https://github.com/nbd9/SupportSeminar', '_blank')} />
-                </CardActions>
-              </Card>
-
-              <Card style={{ margin: 10 }}>
-                <CardHeader
                   title='vscode-gmusic'
-                  subtitle='A VS Code extension that intergrates with the unofficial Google Play Music Desktop Player.'
-              />
+                  subtitle='A VS Code extension that intergrates with the unofficial Google Play Music Desktop Player.' />
                 <CardActions>
                   <FlatButton
                     label='GitHub Repo'
