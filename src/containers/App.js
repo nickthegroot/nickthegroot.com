@@ -66,8 +66,13 @@ class App extends Component {
               <Card style={{ margin: 10 }} >
                 <CardHeader
                   title='Homerooom'
-                  subtitle='An app to connect teachers and learners. Coming soon to Android and iOS.'
+                  subtitle='An app to connect teachers and learners. Private beta now avaiable for Android and iOS.'
                   avatar={homeroom} />
+                <CardActions>
+                  <FlatButton
+                    label='Play Store'
+                    onClick={() => window.open('https://play.google.com/store/apps/details?id=com.nbdeg.homeroom', '_blank')} />
+                </CardActions>
               </Card>
               
               <Card style={{ margin: 10 }}>
@@ -84,7 +89,7 @@ class App extends Component {
                     onClick={() => window.open('https://play.google.com/store/apps/details?id=com.nbdeg.unityplanner', '_blank')} />
                   <FlatButton
                     label='Public Beta'
-                    onClick={() => window.open('hhttps://play.google.com/apps/testing/com.nbdeg.unityplanner', '_blank')} />
+                    onClick={() => window.open('https://play.google.com/apps/testing/com.nbdeg.unityplanner', '_blank')} />
                 </CardActions>
               </Card>
 
