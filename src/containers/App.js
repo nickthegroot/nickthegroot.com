@@ -73,6 +73,11 @@ class App extends Component {
                     label='Play Store'
                     onClick={() => window.open('https://play.google.com/store/apps/details?id=com.nbdeg.homeroom', '_blank')} />
                 </CardActions>
+                <CardActions>
+                  <FlatButton
+                    label='App Store'
+                    onClick={() => window.open('https://itunes.apple.com/us/app/homeroom-lohs-seminars/id1376916514?ls=1&mt=8', '_blank')} />
+                </CardActions>
               </Card>
               
               <Card style={{ margin: 10 }}>
