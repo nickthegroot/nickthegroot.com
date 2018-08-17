@@ -65,7 +65,7 @@ class App extends Component {
             <div>
               <Card style={{ margin: 10 }} >
                 <CardHeader
-                  title='Homeroooms'
+                  title='Homerooms'
                   subtitle='An app to connect teachers and learners. Private beta now avaiable for Android and iOS.'
                   avatar={homeroom} />
                 <CardActions>
