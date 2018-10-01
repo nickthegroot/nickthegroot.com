@@ -49,8 +49,8 @@ class App extends Component {
           style={styles}
           onClick={() => this.refs.parallax.scrollTo(2)}>
           <div>
-            <p>Hello! I'm currently a junior in high school. My intrests include coding, running cross country, and hanging out with friends.</p>
-            <p>I love working with Javascript (including React and React Native), Python, and Java; although I'm learning new languages all the time.</p>
+            <p>Hello! I'm currently a senior in high school. My intrests include coding, running cross country, playing co-ed soccer, and hanging out with friends.</p>
+            <p>I'm fluent in Java, Python, Javscript, and Swift, although I've been learning new langugages constantly!</p>
           </div>
         </Parallax.Layer>
 
@@ -82,7 +82,7 @@ class App extends Component {
                 <CardHeader
                   avatar={unityplanner}
                   title='Unity Planner'
-                  subtitle='The planner to unify your school life.' />
+                  subtitle='The planner to unify your school life. Currently shut down pending an overhaul.' />
                 <CardActions>
                   <FlatButton
                     label='GitHub Repo'
