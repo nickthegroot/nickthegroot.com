@@ -20,16 +20,12 @@ const styles = {
 class App extends Component {
   render () {
     return (
-      <Parallax ref='parallax' pages={3}>
-
-        <Parallax.Layer offset={0} speed={1} style={{ backgroundColor: '#243B4A' }} />
-        <Parallax.Layer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} />
-        <Parallax.Layer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
+      <Parallax ref='parallax' pages={3} scrolling={false}>
 
         <Parallax.Layer
           offset={0}
-          speed={0.5}
-          style={{ ...styles, backgroundImage: `url(${butterbeer})`, backgroundSize: 'cover' }}
+          speed={1}
+          style={{ ...styles, backgroundColor: '#243B4A', backgroundImage: `url(${butterbeer})`, backgroundSize: 'cover' }}
           onClick={() => this.refs.parallax.scrollTo(1)}>
           <div>
             <h1><mark>Nick DeGroot</mark></h1>
@@ -45,19 +41,19 @@ class App extends Component {
 
         <Parallax.Layer
           offset={1}
-          speed={-0.1}
-          style={styles}
+          speed={1}
+          style={{ ...styles, backgroundColor: '#87BCDE' }}
           onClick={() => this.refs.parallax.scrollTo(2)}>
           <div>
-            <p>Hello! I'm currently a senior in high school. My intrests include coding, running cross country, playing co-ed soccer, and hanging out with friends.</p>
-            <p>I'm fluent in Java, Python, Javscript, and Swift, although I've been learning new langugages constantly!</p>
+            <p>Hello! I'm currently a senior in high school. My intrests include coding, playing rec sports, and hanging out with friends.</p>
+            <p>I'm fluent in Java, Python, Javscript, and Swift, although I'm learning new languages constantly!</p>
           </div>
         </Parallax.Layer>
 
         <Parallax.Layer
           offset={2}
-          speed={0.5}
-          style={styles}
+          speed={1}
+          style={{ ...styles, backgroundColor: '#805E73' }}
           onClick={() => this.refs.parallax.scrollTo(0)}>
           <div>
             <h2>My Projects:</h2>
