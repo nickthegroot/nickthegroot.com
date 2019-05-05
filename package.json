@@ -1,20 +1,45 @@
 {
-  "name": "react-nbdeg",
-  "version": "0.1.0",
+  "name": "nbdeg",
+  "version": "3.0.0",
   "private": true,
   "dependencies": {
-    "material-ui": "^0.19.4",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17",
-    "react-social-icons": "^2.7.0",
-    "react-springy-parallax": "^1.2.0",
-    "standard": "^10.0.3"
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "react": "^16.8.6",
+    "react-atv-parallax": "https://github.com/nbd9/react-atv-parallax",
+    "react-dom": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.12",
+    "@types/node": "12.0.0",
+    "@types/react": "16.8.16",
+    "@types/react-dom": "16.8.4",
+    "react-scripts": "3.0.0",
+    "typescript": "3.4.5"
   }
 }
