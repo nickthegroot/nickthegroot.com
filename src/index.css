@@ -1,6 +1,6 @@
 html {
   background-color: #161616;
-  background-image: url(images/stripes.svg);
+  background-image: url(static/stripes.svg);
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: 200% 200%;

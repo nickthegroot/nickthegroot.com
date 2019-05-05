@@ -1,12 +1,12 @@
 import React from 'react';
 import ATVParallax from 'react-atv-parallax'
 
-import homerooms from './images/homerooms.png'
-import gmusic from './images/gmusic.png'
-import classclock from './images/classclock.png'
+import homerooms from './static/homerooms.png'
+import gmusic from './static/gmusic.png'
+import classclock from './static/classclock.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faScroll } from '@fortawesome/free-solid-svg-icons'
 
 import {
   Container,
@@ -22,13 +22,14 @@ const SocialMedia = [
   { icon: faTwitter, url: 'https://twitter.com/OfficialNbd9' },
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/nick-degroot-377374141' },
   { icon: faGithub, url: 'https://github.com/nbd9' },
+  { icon: faScroll, url: 'https://drive.google.com/file/d/1GVxnAPvmLvIzLlfe65T1tAe1kK56bL5R' },
   { icon: faEnvelope, url: 'mailto:contact@nbdeg.com' },
 ]
 
 const Projects = [
-  { title: '🏫 Homerooms', subtitle: 'Say goodbye to paper slips!', url: 'https://play.google.com/store/apps/details?id=com.nbdeg.homeroom', image: homerooms, width: 272 },
-  { title: '🕰 ClassClock', subtitle: 'A better school scheduling tool', url: 'https://classclock.app/', image: classclock, width: 500 },
-  { title: '🎶 vscode-gmusic', subtitle: 'A VS Code extension that integrates with GPMDP', url: 'https://marketplace.visualstudio.com/items?itemName=nbdeg.vscode-gmusic', image: gmusic, width: 422*(500/641) },
+  { title: '🏫 Homerooms', subtitle: 'Say goodbye to paper slips!', url: 'https://play.google.com/store/apps/details?id=com.nbdeg.homeroom', image: homerooms },
+  { title: '🕰 ClassClock', subtitle: 'A better school scheduling tool', url: 'https://classclock.app/', image: classclock },
+  { title: '🎶 vscode-gmusic', subtitle: 'A VS Code extension that integrates with GPMDP', url: 'https://marketplace.visualstudio.com/items?itemName=nbdeg.vscode-gmusic', image: gmusic },
 ]
 
 const createIcons = (icons: typeof SocialMedia) => {
@@ -55,7 +56,7 @@ const createProjects = (projects: typeof Projects) => {
     projectElements.push(
       <div style={{padding: 10}}>
         <a href={project.url}>
-          <ATVParallax style={{ width: project.width, height: 500 }}>
+          <ATVParallax style={{ width: 280, height: 520 }}>
             <img src={project.image} />
             <ProjectContainer>
               <div style={{ backgroundImage: 'linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9))'}}>

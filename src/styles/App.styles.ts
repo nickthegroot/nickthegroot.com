@@ -29,6 +29,7 @@ export const FlexContainer = styled.div({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
+    alignContent: 'center',
     padding: 10,
 })
 
