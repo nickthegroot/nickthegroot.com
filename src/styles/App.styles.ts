@@ -23,10 +23,36 @@ export const Subtitle = styled.p({
     color: 'white',
     textAlign: 'center',
     margin: 0,
-    paddingBottom: 20,
 })
 
-export const SocialContainer = styled.div({
+export const FlexContainer = styled.div({
     display: 'flex',
-    justifyContent: 'center'
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    padding: 10,
+})
+
+export const ProjectContainer = styled.div({
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+    backgroundColor: 'black',
+    margin: 0,
+})
+
+export const ProjectTitle = styled.p({
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: 'white',
+    textAlign: "center",
+    margin: 0,
+})
+
+export const ProjectSubtitle = styled.p({
+    fontSize: 20,
+    color: 'white',
+    textAlign: "center",
+    marginTop: 0,
+    paddingLeft: 5,
+    paddingRight: 5,
 })
