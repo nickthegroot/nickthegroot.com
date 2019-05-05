@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faLinkedin, faGithub, IconDefinition } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+import { Container, SocialContainer, Title, Subtitle } from './styles/App.styles'
+
+const createIcons = (icons: IconDefinition[]) => {
+  let iconElements: JSX.Element[] = []
+  icons.forEach(icon => {
+    iconElements.push(
+      <FontAwesomeIcon
+        icon={icon}
+        size="3x"
+        color="white"
+        style={{ padding: 10 }}
+      />
+    )
+  })
+
+  return iconElements
+}
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Title>Nick DeGroot</Title>
+      <Subtitle>Data Scientist and Software Engineer</Subtitle>
+      <SocialContainer>
+        {createIcons([faTwitter, faLinkedin, faEnvelope, faGithub])}
+      </SocialContainer>
+    </Container>
   );
 }
 

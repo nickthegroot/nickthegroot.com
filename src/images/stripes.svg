@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1557px" height="1436px" viewBox="0 0 1557 1436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Stripes</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Stripes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <rect fill="#D63738" transform="translate(777.713383, 718.000000) rotate(45.000000) translate(-777.713383, -718.000000) " x="762.713383" y="-282" width="30" height="2000"></rect>
+            <rect fill="#F2F2F2" transform="translate(837.713383, 718.000000) rotate(45.000000) translate(-837.713383, -718.000000) " x="822.713383" y="-282" width="30" height="2000"></rect>
+            <rect fill="#13293D" transform="translate(717.713383, 718.000000) rotate(45.000000) translate(-717.713383, -718.000000) " x="702.713383" y="-282" width="30" height="2000"></rect>
+        </g>
+    </g>
+</svg>
