@@ -23,7 +23,7 @@ const SocialMedia = [
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/nick-degroot-377374141' },
   { icon: faGithub, url: 'https://github.com/nbd9' },
   { icon: faScroll, url: 'https://drive.google.com/file/d/1GVxnAPvmLvIzLlfe65T1tAe1kK56bL5R' },
-  { icon: faEnvelope, url: 'mailto:contact@nbdeg.com' },
+  { icon: faEnvelope, url: 'mailto:nbdegroot1@gmail.com' },
 ]
 
 const Projects = [
