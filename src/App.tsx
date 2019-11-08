@@ -19,9 +19,9 @@ import {
 } from './styles/App.styles'
 
 const SocialMedia = [
-  { icon: faTwitter, url: 'https://twitter.com/OfficialNbd9' },
+  { icon: faTwitter, url: 'https://twitter.com/nickthegroot' },
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/nick-degroot-377374141' },
-  { icon: faGithub, url: 'https://github.com/nbd9' },
+  { icon: faGithub, url: 'https://github.com/nickthegroot' },
   { icon: faScroll, url: 'https://drive.google.com/file/d/1GVxnAPvmLvIzLlfe65T1tAe1kK56bL5R' },
   { icon: faEnvelope, url: 'mailto:nbdegroot1@gmail.com' },
 ]
