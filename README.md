@@ -1,7 +1,7 @@
-# nbdeg.com
+# nickthegroot.com
 ### The personal website for Nick.
 
-This is the source for [nbdeg.com](http://nbdeg.com), version 3.0.
+This is the source for [nickthegroot.com](https://nickthegroot.com), version 3.0.
 
 ### Libraries Used
 * React
