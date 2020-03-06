@@ -5,7 +5,7 @@ import homerooms from './static/homerooms.png'
 import gmusic from './static/gmusic.png'
 import classclock from './static/classclock.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faScroll } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -19,7 +19,6 @@ import {
 } from './styles/App.styles'
 
 const SocialMedia = [
-  { icon: faTwitter, url: 'https://twitter.com/nickthegroot' },
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/nick-degroot-377374141' },
   { icon: faGithub, url: 'https://github.com/nickthegroot' },
   { icon: faScroll, url: 'https://drive.google.com/file/d/1GVxnAPvmLvIzLlfe65T1tAe1kK56bL5R' },
