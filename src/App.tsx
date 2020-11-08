@@ -21,7 +21,7 @@ import {
 const SocialMedia = [
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/nick-degroot-377374141' },
   { icon: faGithub, url: 'https://github.com/nickthegroot' },
-  { icon: faScroll, url: 'https://drive.google.com/file/d/1GVxnAPvmLvIzLlfe65T1tAe1kK56bL5R' },
+  { icon: faScroll, url: 'https://docs.google.com/document/d/1GVL7iipxgzTjYxMn8ocfuA8xMdIvzHo0JYwBIC8txVM/edit?usp=sharing' },
   { icon: faEnvelope, url: 'mailto:nbdegroot1@gmail.com' },
 ]
 
