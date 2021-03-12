@@ -3,6 +3,7 @@ import ATVParallax from "react-atv-parallax";
 import homerooms from "./static/homerooms.png";
 import gmusic from "./static/gmusic.png";
 import classclock from "./static/classclock.png";
+import coursearrival from "./static/coursearrival.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faScroll } from "@fortawesome/free-solid-svg-icons";
@@ -43,6 +44,12 @@ const Projects = [
       "https://marketplace.visualstudio.com/items?itemName=nbdeg.vscode-gmusic",
     image: gmusic,
   },
+  {
+    title: "📓 Course Arrival",
+    subtitle: "Automatic scheduling helper for university courses",
+    url: "https://devpost.com/software/course-arrival",
+    image: coursearrival,
+  },
 ];
 
 const createIcons = (icons: typeof SocialMedia) => {
@@ -74,6 +81,7 @@ const createProjects = (projects: typeof Projects) => {
             <ProjectContainer>
               <div
                 style={{
+                  paddingTop: 20,
                   backgroundImage:
                     "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9))",
                 }}
