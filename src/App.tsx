@@ -20,7 +20,7 @@ import {
 const SocialMedia: any[] = [
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/nick-degroot-377374141' },
   { icon: faGithub, url: 'https://github.com/nickthegroot' },
-  { icon: faScroll, url: 'https://docs.google.com/document/d/1GVL7iipxgzTjYxMn8ocfuA8xMdIvzHo0JYwBIC8txVM/edit?usp=sharing' },
+  { icon: faScroll, url: 'https://docs.google.com/document/u/0/export?format=pdf&id=1GVL7iipxgzTjYxMn8ocfuA8xMdIvzHo0JYwBIC8txVM' },
   { icon: faEnvelope, url: 'mailto:nbdegroot1@gmail.com' },
 ]
 
