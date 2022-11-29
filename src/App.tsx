@@ -28,7 +28,7 @@ const Projects = [
   {
     title: "🏫 Homerooms",
     subtitle: "Say goodbye to paper slips!",
-    url: "https://play.google.com/store/apps/details?id=com.nbdeg.homeroom",
+    url: "https://github.com/nickthegroot/homerooms",
     image: homerooms,
   },
   {
