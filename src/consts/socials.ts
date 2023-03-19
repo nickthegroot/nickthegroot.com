@@ -10,7 +10,7 @@ const Socials: SocialMediaInfo[] = [
   { icon: faGithub, url: "https://github.com/nickthegroot" },
   {
     icon: faScroll,
-    url: "https://docs.google.com/document/u/0/export?format=pdf&id=1GVL7iipxgzTjYxMn8ocfuA8xMdIvzHo0JYwBIC8txVM",
+    url: "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1GVL7iipxgzTjYxMn8ocfuA8xMdIvzHo0JYwBIC8txVM/export?format=pdf",
   },
   { icon: faEnvelope, url: "mailto:nick@nickthegroot.com" },
 ];
