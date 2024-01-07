@@ -1,26 +1,23 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "es5",
-    "jsx": "react-jsx",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "jsx": "preserve",
+    "jsxFactory": "preact.h",
+    "jsxFragmentFactory": "preact.Fragment",
     "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "esnext",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["node_modules/wmr/types.d.ts", "**/*"],
+  "typeAcquisition": {
+    "enable": true
+  }
 }

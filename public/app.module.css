@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30vh 5% 5vh 5%;
+}
+
+.header-section {
+  margin: 0;
+}
