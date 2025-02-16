@@ -1,2 +1,2 @@
-yarn latest
-node 20
+node 22
+pnpm 10.4.0
