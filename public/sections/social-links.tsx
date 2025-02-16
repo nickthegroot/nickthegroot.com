@@ -16,7 +16,7 @@ export const SocialLinks = () => (
       <GitHubIcon />
     </a>
 
-    <a href="https://docs.google.com/document/u/0/export?format=pdf&id=1GVL7iipxgzTjYxMn8ocfuA8xMdIvzHo0JYwBIC8txVM">
+    <a href="https://raw.githubusercontent.com/nickthegroot/resume/refs/heads/main/resume_public.pdf">
       <ResumeIcon />
     </a>
 
