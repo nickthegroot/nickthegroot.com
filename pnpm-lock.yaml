@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       preact:
-        specifier: ^10.27.1
-        version: 10.27.1
+        specifier: ^10.27.2
+        version: 10.27.2
       preact-iso:
         specifier: ^2.10.0
-        version: 2.10.0(preact-render-to-string@6.5.13(preact@10.27.1))(preact@10.27.1)
+        version: 2.10.0(preact-render-to-string@6.5.13(preact@10.27.2))(preact@10.27.2)
     devDependencies:
       eslint:
         specifier: ^9.35.0
@@ -1125,8 +1125,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.27.1:
-    resolution: {integrity: sha512-V79raXEWch/rbqoNc7nT9E4ep7lu+mI3+sBmfRD4i1M73R3WLYcCtdI0ibxGVf4eQL8ZIz2nFacqEC+rmnOORQ==}
+  preact@10.27.2:
+    resolution: {integrity: sha512-5SYSgFKSyhCbk6SrXyMpqjb5+MQBgfvEKE/OC+PujcY34sOpqtr+0AZQtPYx5IA6VxynQ7rUPCtKzyovpj9Bpg==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -2648,16 +2648,16 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-iso@2.10.0(preact-render-to-string@6.5.13(preact@10.27.1))(preact@10.27.1):
+  preact-iso@2.10.0(preact-render-to-string@6.5.13(preact@10.27.2))(preact@10.27.2):
     dependencies:
-      preact: 10.27.1
-      preact-render-to-string: 6.5.13(preact@10.27.1)
+      preact: 10.27.2
+      preact-render-to-string: 6.5.13(preact@10.27.2)
 
-  preact-render-to-string@6.5.13(preact@10.27.1):
+  preact-render-to-string@6.5.13(preact@10.27.2):
     dependencies:
-      preact: 10.27.1
+      preact: 10.27.2
 
-  preact@10.27.1: {}
+  preact@10.27.2: {}
 
   prelude-ls@1.2.1: {}
 
