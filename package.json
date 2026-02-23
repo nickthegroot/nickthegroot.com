@@ -9,7 +9,7 @@
 		"extends": "preact"
 	},
 	"dependencies": {
-		"preact": "^10.28.3",
+		"preact": "^10.28.4",
 		"preact-iso": "^2.11.1"
 	},
 	"devDependencies": {
