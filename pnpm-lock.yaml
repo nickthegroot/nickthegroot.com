@@ -22,11 +22,11 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(eslint@9.39.2)
       typescript:
-        specifier: ^6.0.2
-        version: 6.0.2
+        specifier: ^6.0.3
+        version: 6.0.3
       typescript-plugin-css-modules:
         specifier: ^5.2.0
-        version: 5.2.0(typescript@6.0.2)
+        version: 5.2.0(typescript@6.0.3)
       wmr:
         specifier: ^3.8.0
         version: 3.8.0
@@ -1334,8 +1334,8 @@ packages:
     peerDependencies:
       typescript: '>=4.0.0'
 
-  typescript@6.0.2:
-    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2934,7 +2934,7 @@ snapshots:
       possible-typed-array-names: 1.1.0
       reflect.getprototypeof: 1.0.10
 
-  typescript-plugin-css-modules@5.2.0(typescript@6.0.2):
+  typescript-plugin-css-modules@5.2.0(typescript@6.0.3):
     dependencies:
       '@types/postcss-modules-local-by-default': 4.0.2
       '@types/postcss-modules-scope': 3.0.4
@@ -2951,14 +2951,14 @@ snapshots:
       sass: 1.89.2
       source-map-js: 1.2.1
       tsconfig-paths: 4.2.0
-      typescript: 6.0.2
+      typescript: 6.0.3
     optionalDependencies:
       stylus: 0.62.0
     transitivePeerDependencies:
       - supports-color
       - ts-node
 
-  typescript@6.0.2: {}
+  typescript@6.0.3: {}
 
   unbox-primitive@1.1.0:
     dependencies:
