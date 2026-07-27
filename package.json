@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"preact": "^10.29.7",
-		"preact-iso": "^2.12.0"
+		"preact-iso": "^2.12.1"
 	},
 	"devDependencies": {
 		"eslint": "^9.39.2",
