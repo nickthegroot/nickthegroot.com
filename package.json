@@ -1,5 +1,6 @@
 {
 	"private": true,
+	"packageManager": "pnpm@11.21.0",
 	"scripts": {
 		"start": "wmr",
 		"build": "wmr build --prerender",
@@ -13,7 +14,7 @@
 		"preact-iso": "^2.12.2"
 	},
 	"devDependencies": {
-		"eslint": "^9.39.2",
+		"eslint": "^10.10.0",
 		"eslint-config-preact": "^2.0.0",
 		"typescript": "^7.0.2",
 		"typescript-plugin-css-modules": "^5.2.0",
