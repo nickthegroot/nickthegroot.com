@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       preact:
-        specifier: ^11.1.0
-        version: 11.1.0(preact-render-to-string@6.8.0)
+        specifier: ^11.1.1
+        version: 11.1.1(preact-render-to-string@6.8.0)
       preact-iso:
         specifier: ^2.12.2
-        version: 2.12.2(preact-render-to-string@6.8.0)(preact@11.1.0)
+        version: 2.12.2(preact-render-to-string@6.8.0)(preact@11.1.1)
     devDependencies:
       eslint:
         specifier: ^10.13.0
@@ -1258,8 +1258,8 @@ packages:
     peerDependencies:
       preact: '>=10 || >= 11.0.0-0'
 
-  preact@11.1.0:
-    resolution: {integrity: sha512-hz1VsjWx5pSYPDVEzb9w+XyOmQpP1qW/ZEaMiYm+C8ykJr8KP+TKGZIbCW0QmZ/Yr/jg3XkZoziEWn9iWHZ9Mw==}
+  preact@11.1.1:
+    resolution: {integrity: sha512-vpFVfai437pbuLri7XVeslCPfrEZX6Z1S2gV+MOFrA/kji+NKUXvH7y01EnVjA1guLigfkVp77Sqipd4SIllCg==}
     peerDependencies:
       preact-render-to-string: '>=6.7.0'
     peerDependenciesMeta:
@@ -2864,18 +2864,18 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  preact-iso@2.12.2(preact-render-to-string@6.8.0)(preact@11.1.0):
+  preact-iso@2.12.2(preact-render-to-string@6.8.0)(preact@11.1.1):
     dependencies:
-      preact: 11.1.0(preact-render-to-string@6.8.0)
-      preact-render-to-string: 6.8.0(preact@11.1.0)
+      preact: 11.1.1(preact-render-to-string@6.8.0)
+      preact-render-to-string: 6.8.0(preact@11.1.1)
 
-  preact-render-to-string@6.8.0(preact@11.1.0):
+  preact-render-to-string@6.8.0(preact@11.1.1):
     dependencies:
-      preact: 11.1.0(preact-render-to-string@6.8.0)
+      preact: 11.1.1(preact-render-to-string@6.8.0)
 
-  preact@11.1.0(preact-render-to-string@6.8.0):
+  preact@11.1.1(preact-render-to-string@6.8.0):
     optionalDependencies:
-      preact-render-to-string: 6.8.0(preact@11.1.0)
+      preact-render-to-string: 6.8.0(preact@11.1.1)
 
   prelude-ls@1.2.1: {}
 
